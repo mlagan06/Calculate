@@ -1,0 +1,5 @@
+C:\Users\DellBoy\Desktop\Cal_Numbers\CalculateNumbers\CodedUITestCalculator\bin\Debug\CodedUITestCalculator.dll
+C:\Users\DellBoy\Desktop\Cal_Numbers\CalculateNumbers\CodedUITestCalculator\bin\Debug\CodedUITestCalculator.pdb
+C:\Users\DellBoy\Desktop\Cal_Numbers\CalculateNumbers\CodedUITestCalculator\obj\Debug\CodedUITestCalculator.csprojResolveAssemblyReference.cache
+C:\Users\DellBoy\Desktop\Cal_Numbers\CalculateNumbers\CodedUITestCalculator\obj\Debug\CodedUITestCalculator.dll
+C:\Users\DellBoy\Desktop\Cal_Numbers\CalculateNumbers\CodedUITestCalculator\obj\Debug\CodedUITestCalculator.pdb
