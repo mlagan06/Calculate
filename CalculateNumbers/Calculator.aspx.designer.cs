@@ -58,93 +58,93 @@ namespace CalculateNumbers {
         protected global::System.Web.UI.UpdatePanel CalculateUP;
         
         /// <summary>
-        /// AllNumLbl control.
+        /// ShowAllNumbers_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AllNumLbl;
+        protected global::System.Web.UI.WebControls.Label ShowAllNumbers_Lbl;
         
         /// <summary>
-        /// AllNumLbl_Res control.
+        /// ShowAllNumbersResults_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AllNumLbl_Res;
+        protected global::System.Web.UI.WebControls.Label ShowAllNumbersResults_Lbl;
         
         /// <summary>
-        /// OddLbl control.
+        /// ShowOddNumbers_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label OddLbl;
+        protected global::System.Web.UI.WebControls.Label ShowOddNumbers_Lbl;
         
         /// <summary>
-        /// OddLbl_res control.
+        /// ShowOddNumbersResults_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label OddLbl_res;
+        protected global::System.Web.UI.WebControls.Label ShowOddNumbersResults_Lbl;
         
         /// <summary>
-        /// EvenLbl control.
+        /// ShowEvenNumbers_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EvenLbl;
+        protected global::System.Web.UI.WebControls.Label ShowEvenNumbers_Lbl;
         
         /// <summary>
-        /// EvenLbl_res control.
+        /// ShowEvenNumbersResults_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EvenLbl_res;
+        protected global::System.Web.UI.WebControls.Label ShowEvenNumbersResults_Lbl;
         
         /// <summary>
-        /// LettersLbl control.
+        /// ShowLetters_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LettersLbl;
+        protected global::System.Web.UI.WebControls.Label ShowLetters_Lbl;
         
         /// <summary>
-        /// LettersLbl_res control.
+        /// ShowLettersResults_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LettersLbl_res;
+        protected global::System.Web.UI.WebControls.Label ShowLettersResults_Lbl;
         
         /// <summary>
-        /// FibLbl control.
+        /// ShowFibNumbers_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FibLbl;
+        protected global::System.Web.UI.WebControls.Label ShowFibNumbers_Lbl;
         
         /// <summary>
-        /// FibLbl_results control.
+        /// ShowFibNumbersResults_Lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FibLbl_results;
+        protected global::System.Web.UI.WebControls.Label ShowFibNumbersResults_Lbl;
     }
 }

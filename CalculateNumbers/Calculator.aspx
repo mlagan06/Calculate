@@ -21,16 +21,16 @@
                 <ContentTemplate>
                     <fieldset>
                         <legend>Here are the results:</legend>
-                        <asp:Label ID="AllNumLbl" Text="All Numbers" runat="server"></asp:Label><br />
-                        <asp:Label ID="AllNumLbl_Res" runat="server"></asp:Label><br /><br />
-                        <asp:Label ID="OddLbl" Text="Odd" runat="server"></asp:Label><br />
-                        <asp:Label ID="OddLbl_res" runat="server"></asp:Label><br /><br />
-                        <asp:Label ID="EvenLbl" Text="Even" runat="server"></asp:Label><br />
-                        <asp:Label ID="EvenLbl_res" runat="server"></asp:Label><br /><br />
-                        <asp:Label ID="LettersLbl" Text="Numbers divisible by 3 shows C, divisible by 5 shows E, divisible by 3 & 5 shows Z. Otherwise show number" runat="server"></asp:Label><br />
-                        <asp:Label ID="LettersLbl_res" runat="server"></asp:Label><br /><br />
-                        <asp:Label ID="FibLbl" Text="Fibonacci" runat="server"></asp:Label><br />
-                        <asp:Label ID="FibLbl_results" runat="server"></asp:Label><br /><br />
+                        <asp:Label ID="ShowAllNumbers_Lbl" Text="All Numbers" runat="server"></asp:Label><br />
+                        <asp:Label ID="ShowAllNumbersResults_Lbl" runat="server"></asp:Label><br /><br />
+                        <asp:Label ID="ShowOddNumbers_Lbl" Text="Odd" runat="server"></asp:Label><br />
+                        <asp:Label ID="ShowOddNumbersResults_Lbl" runat="server"></asp:Label><br /><br />
+                        <asp:Label ID="ShowEvenNumbers_Lbl" Text="Even" runat="server"></asp:Label><br />
+                        <asp:Label ID="ShowEvenNumbersResults_Lbl" runat="server"></asp:Label><br /><br />
+                        <asp:Label ID="ShowLetters_Lbl" Text="Numbers divisible by 3 shows C, divisible by 5 shows E, divisible by 3 & 5 shows Z. Otherwise show number" runat="server"></asp:Label><br />
+                        <asp:Label ID="ShowLettersResults_Lbl" runat="server"></asp:Label><br /><br />
+                        <asp:Label ID="ShowFibNumbers_Lbl" Text="Fibonacci" runat="server"></asp:Label><br />
+                        <asp:Label ID="ShowFibNumbersResults_Lbl" runat="server"></asp:Label><br /><br />
                     </fieldset>
                 </ContentTemplate>
             </asp:UpdatePanel>

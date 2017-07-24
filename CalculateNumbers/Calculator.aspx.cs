@@ -14,17 +14,18 @@ namespace CalculateNumbers
 
         }
 
+        //CALCULATE OUTPUTS AFTER INPUT ENTERED
         protected void CalculateResults(object sender, EventArgs e)
         {
             try
             {
                 int number = int.Parse(numberTb.Text);
                 PerformCalculations PerformCal = new PerformCalculations();
-                AllNumLbl_Res.Text = PerformCal.GetAllNumbers(number);
-                OddLbl_res.Text = PerformCal.GetAllOddNumbers(number);
-                EvenLbl_res.Text = PerformCal.GetAllEvenNumbers(number);
-                LettersLbl_res.Text = PerformCal.GetAllLetters(number);
-                FibLbl_results.Text = PerformCal.GetAllFibsNumbers(number);
+                ShowAllNumbersResults_Lbl.Text = PerformCal.GetAllNumbers(number);
+                ShowOddNumbersResults_Lbl.Text = PerformCal.GetAllOddNumbers(number);
+                ShowEvenNumbersResults_Lbl.Text = PerformCal.GetAllEvenNumbers(number);
+                ShowLettersResults_Lbl.Text = PerformCal.GetAllLetters(number);
+                ShowFibNumbersResults_Lbl.Text = PerformCal.GetAllFibsNumbers(number);
                 ResultsDiv.Style["display"] = "block";
                 CalculateUP.Update();
             }
