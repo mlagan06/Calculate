@@ -1,3 +1,3 @@
 # Calculate
 
-Download and run.
+Download, Build project and run.
