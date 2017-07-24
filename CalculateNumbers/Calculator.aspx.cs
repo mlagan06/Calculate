@@ -23,7 +23,15 @@ namespace CalculateNumbers
                 PerformCalculations PerformCal = new PerformCalculations();
                 ShowAllNumbersResults_Lbl.Text = PerformCal.GetAllNumbers(number);
                 ShowOddNumbersResults_Lbl.Text = PerformCal.GetAllOddNumbers(number);
-                ShowEvenNumbersResults_Lbl.Text = PerformCal.GetAllEvenNumbers(number);
+
+                if (number == 1)
+                {
+                    ShowEvenNumbersResults_Lbl.Text = "No numbers to show";
+                }
+                else
+                {
+                    ShowEvenNumbersResults_Lbl.Text = PerformCal.GetAllEvenNumbers(number);
+                }
                 ShowLettersResults_Lbl.Text = PerformCal.GetAllLetters(number);
                 ShowFibNumbersResults_Lbl.Text = PerformCal.GetAllFibsNumbers(number);
                 ResultsDiv.Style["display"] = "block";

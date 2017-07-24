@@ -28,28 +28,28 @@ namespace CodedUITestCalculator
             try
             {
                 // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
-                //BrowserWindow Browser = BrowserWindow.Launch("http://localhost:37426/Calculator");
+                BrowserWindow Browser = BrowserWindow.Launch("http://localhost:37426/Calculator");
 
-                //UITestControl UiInputField = new UITestControl(Browser);
-                //UiInputField.TechnologyName = "Web";
-                //UiInputField.SearchProperties.Add("ControlType", "Edit");
-                //UiInputField.SearchProperties.Add("Id", "MainContent_numberTb");
+                UITestControl UiInputField = new UITestControl(Browser);
+                UiInputField.TechnologyName = "Web";
+                UiInputField.SearchProperties.Add("ControlType", "Edit");
+                UiInputField.SearchProperties.Add("Id", "MainContent_numberTb");
 
-                ////Populate input field
-                //Keyboard.SendKeys(UiInputField, "15ABC");
+                //Populate input field
+                Keyboard.SendKeys(UiInputField, "15ABC");
 
-                ////Results Button
-                //UITestControl ResultsBtn = new UITestControl(Browser);
-                //ResultsBtn.TechnologyName = "Web";
-                //ResultsBtn.SearchProperties.Add("ControlType", "Button");
-                //ResultsBtn.SearchProperties.Add("Id", "MainContent_calBtn");
+                //Results Button
+                UITestControl ResultsBtn = new UITestControl(Browser);
+                ResultsBtn.TechnologyName = "Web";
+                ResultsBtn.SearchProperties.Add("ControlType", "Button");
+                ResultsBtn.SearchProperties.Add("Id", "MainContent_calBtn");
 
-                //Mouse.Click(ResultsBtn);
+                Mouse.Click(ResultsBtn);
 
-                ////VALIDATION MESSAGE
-                //UITestControl PositiveNumValMsg = new UITestControl(Browser);
-                //PositiveNumValMsg.TechnologyName = "Web";
-                //PositiveNumValMsg.SearchProperties.Add("Id", "MainContent_regexpName");
+                //VALIDATION MESSAGE
+                UITestControl PositiveNumValMsg = new UITestControl(Browser);
+                PositiveNumValMsg.TechnologyName = "Web";
+                PositiveNumValMsg.SearchProperties.Add("Id", "MainContent_regexpName");
 
                 //var PositiveNumValMsg1 = new HtmlSpan(Browser);
                 //PositiveNumValMsg1.TechnologyName = "Web";
